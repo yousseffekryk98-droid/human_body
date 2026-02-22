@@ -1,0 +1,47 @@
+#root {
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.info {
+  font-size: 0.8rem;
+  display: block;
+  width: 250px;
+  padding-top: 200px;
+  color: #eee;
+  padding-left: 2rem;
+  opacity: 0.5;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.info:hover {
+  opacity: 1;
+}
+
+.info a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
